@@ -1,0 +1,133 @@
+
+<!doctype html>
+<html>
+{% load static %}
+<head>
+    <title>형량별 데이터 분포</title>
+    <script src="{% static 'js/Chart.bundle.js' %}"></script>
+    <script src="{% static 'js/utils.js' %}"></script>
+    <style>
+    canvas {
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+    </style>
+</head>
+
+<body>
+    <a href='{% url "home" %}'><h1>마약범죄 판례 검색 사이트</h1></a>
+    <div id="container" style="width: 75%;">
+        <canvas id="canvas"></canvas>
+    </div>
+    <p> 검색조건<br>
+        취급약물: {{drugs}}<br>
+        형종: {{type}} </p>
+    <p>{{type}} 형량에 대한 판례 데이터의 분포는 위와 같습니다. 판례를 보려면 형량범위를 선택한 후 아래의 '이동' 버튼을 눌러주세요.</p>
+    <p><form method="GET" action="{% url 'precedent' %}">
+    {%csrf_token%}
+      <label><input type="radio" name="sentence" value="1년미만"> 1년미만</label>
+      <label><input type="radio" name="sentence" value="1년"> 1년</label>
+      <label><input type="radio" name="sentence" value="2년"> 2년</label>
+      <label><input type="radio" name="sentence" value="3년"> 3년</label>
+      <label><input type="radio" name="sentence" value="4년"> 4년</label>
+      <label><input type="radio" name="sentence" value="5년이상"> 5년이상</label>
+    </p>
+        <button type="submit" nowrap>이동</button>
+    </form>
+    <script>
+        var color = Chart.helpers.color;
+        var barChartData = {
+            labels: {{labels|safe}},
+            datasets: [{
+                label: '판례 데이터',
+                backgroundColor: color(window.chartColors.red).alpha(0.5).rgbString(),
+                borderColor: window.chartColors.red,
+                borderWidth: 1,
+                data: {{data|safe}}
+            }]
+
+        };
+
+        window.onload = function() {
+            var ctx = document.getElementById("canvas").getContext("2d");
+            window.myBar = new Chart(ctx, {
+                type: 'bar',
+                data: barChartData,
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: '형량별 판례 데이터 분포'
+                    }
+                }
+            });
+
+        };
+
+        document.getElementById('randomizeData').addEventListener('click', function() {
+            var zero = Math.random() < 0.2 ? true : false;
+            barChartData.datasets.forEach(function(dataset) {
+                dataset.data = dataset.data.map(function() {
+                    return zero ? 0.0 : randomScalingFactor();
+                });
+
+            });
+            window.myBar.update();
+        });
+
+        var colorNames = Object.keys(window.chartColors);
+        document.getElementById('addDataset').addEventListener('click', function() {
+            var colorName = colorNames[barChartData.datasets.length % colorNames.length];;
+            var dsColor = window.chartColors[colorName];
+            var newDataset = {
+                label: 'Dataset ' + barChartData.datasets.length,
+                backgroundColor: color(dsColor).alpha(0.5).rgbString(),
+                borderColor: dsColor,
+                borderWidth: 1,
+                data: []
+            };
+
+            for (var index = 0; index < barChartData.labels.length; ++index) {
+                newDataset.data.push(randomScalingFactor());
+            }
+
+            barChartData.datasets.push(newDataset);
+            window.myBar.update();
+        });
+
+        document.getElementById('addData').addEventListener('click', function() {
+            if (barChartData.datasets.length > 0) {
+                var month = MONTHS[barChartData.labels.length % MONTHS.length];
+                barChartData.labels.push(month);
+
+                for (var index = 0; index < barChartData.datasets.length; ++index) {
+                    //window.myBar.addData(randomScalingFactor(), index);
+                    barChartData.datasets[index].data.push(randomScalingFactor());
+                }
+
+                window.myBar.update();
+            }
+        });
+
+        document.getElementById('removeDataset').addEventListener('click', function() {
+            barChartData.datasets.splice(0, 1);
+            window.myBar.update();
+        });
+
+        document.getElementById('removeData').addEventListener('click', function() {
+            barChartData.labels.splice(-1, 1); // remove the label first
+
+            barChartData.datasets.forEach(function(dataset, datasetIndex) {
+                dataset.data.pop();
+            });
+
+            window.myBar.update();
+        });
+    </script>
+</body>
+
+</html>

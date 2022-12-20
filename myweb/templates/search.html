@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html lang="ko">
+  <head>
+  <meta charset="utf-8">
+  <title>검색페이지</title>
+  </head>
+  <body>
+  <a href='{% url "home" %}'><h1>마약범죄 판례 검색 사이트</h1></a>
+    <form method="GET" action="{% url 'pie' %}">
+    {%csrf_token%}
+      <p>취급마약</p>
+      <label><input type="checkbox" name="drug" value="필로폰"> 필로폰</label>
+      <label><input type="checkbox" name="drug" value="대마"> 대마</label>
+      <label><input type="checkbox" name="drug" value="엑스터시"> 엑스터시</label>
+      <label><input type="checkbox" name="drug" value="야바"> 야바</label>
+      <label><input type="checkbox" name="drug" value="케타민"> 케타민</label>
+      <label><input type="checkbox" name="drug" value="프로포폴"> 프로포폴</label>
+      <label><input type="checkbox" name="drug" value="코카인"> 코카인</label>
+      <label><input type="checkbox" name="drug" value="LSD"> LSD</label>
+      <label><input type="checkbox" name="drug" value="GHB"> GHB</label>
+      <label><input type="checkbox" name="drug" value="펜타닐"> 펜타닐</label>
+      <p><button type="submit">검색</button><button type="reset">초기화</button></p>
+    </form>
+  </body>
+</html>

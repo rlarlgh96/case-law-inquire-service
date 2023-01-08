@@ -45,6 +45,14 @@
 
 ## 결과
 * 구현한 서비스의 모습은 다음과 같다.
-<img width="1280" alt="스크린샷 2023-01-09 오전 12 16 50" src="https://user-images.githubusercontent.com/121072239/211204388-778251d2-c73e-47ad-8ff1-3df49ba9431c.png">
+1) 홈페이지
+<img width="730" alt="홈페이지" src="https://user-images.githubusercontent.com/121072239/211204768-64cebbad-c33f-4bef-95c3-2344c5559dc3.png">
+2) 마약별 데이터 분포 페이지
+<img width="935" alt="마약별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/211204780-21db46b9-4f6d-45a8-8d5d-dae0e2bb24bb.png">
+3) 검색 페이지
+<img width="517" alt="스크린샷 2023-01-09 오전 12 21 14" src="https://user-images.githubusercontent.com/121072239/211204799-b599a4f1-cf86-46e6-8240-4d285bf8737c.png">
+
+
+
 
 

@@ -45,15 +45,7 @@
 
 ## 결과
 * 구현한 서비스의 모습은 다음과 같다.
-1. 홈페이지
-
 <img width="1280" alt="홈페이지" src="https://user-images.githubusercontent.com/121072239/211204990-3de72f94-d781-408a-bfeb-4148b8bcc904.png">
-
-2. 데이터 분포 페이지
-
-<img width="1280" alt="데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/211205016-e110aead-980c-4414-992b-d9ab3fcecab0.png">
-
-3. 검색 페이지
 
 <img width="1280" alt="검색 페이지" src="https://user-images.githubusercontent.com/121072239/211205070-7af89dd2-0cb7-4cf7-ae3a-d3553d3b3fc1.png">
 

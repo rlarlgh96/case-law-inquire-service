@@ -45,3 +45,6 @@
 
 ## 결과
 * 구현한 서비스의 모습은 다음과 같다.
+<img width="1280" alt="스크린샷 2023-01-09 오전 12 16 50" src="https://user-images.githubusercontent.com/121072239/211204388-778251d2-c73e-47ad-8ff1-3df49ba9431c.png">
+
+

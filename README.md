@@ -51,6 +51,6 @@
 <img width="1280" alt="형종별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/211205427-f9a74b34-ef44-4fab-a583-e3babc66416b.png">
 <img width="1280" alt="형량별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/211205436-4f8b7cbb-c5a6-4a93-af4b-134c2334f50d.png">
 <img width="1280" alt="판례 원문 페이지" src="https://user-images.githubusercontent.com/121072239/211205445-7e1322dd-1d48-40dc-915e-63140414e482.png">
-ㅇㅇㅇ
+
 
 

@@ -31,7 +31,8 @@
  4) 형량범위: 형량의 범위
  5) 범죄사실: 선고에 적용된 범죄사실을 나타냄.
  * 전처리를 완료한 데이터 테이블의 모습은 다음과 같다.
- <img width="1280" alt="전처리 데이터" src="https://user-images.githubusercontent.com/121072239/212741972-8a51aca5-c058-4321-851a-0b5b487c7657.png">
+ <img width="1280" alt="데이터 테이블" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">
+
 
  ### 3. 서비스 구현
  * 서비스는 웹사이트 형태로 구현하였으며, Django 프레임워크를 사용해 구현하였다.

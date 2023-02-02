@@ -31,9 +31,9 @@
  3) 형종: 형량의 종류
  4) 형량범위: 형량의 범위
  5) 범죄사실: 선고에 적용된 범죄사실을 나타냄.
+ * 데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고
  * 전처리를 완료한 테이블은 다음과 같다.
  <img width="1280" alt="데이터 테이블" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">
- *  데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고
 
  ### 3. 서비스 구현
  * 서비스는 웹사이트 형태로 구현하였으며, Django 프레임워크를 사용해 구현하였다.

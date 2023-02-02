@@ -59,4 +59,3 @@
 <img width="1280" alt="형종별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/212744355-79a4311a-68d7-4dea-a03a-ece565746ad7.png">
 <img width="1280" alt="형량별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/212744369-569db9d4-086d-4d1b-9ac6-3af8d2cbb36a.png">
 <img width="1280" alt="판례 원문 페이지" src="https://user-images.githubusercontent.com/121072239/212744374-a60cfba9-4b7c-4331-a9f4-081c8ecb02f4.png">
-

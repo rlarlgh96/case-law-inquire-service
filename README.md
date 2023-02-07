@@ -32,7 +32,7 @@
  4) 형량범위: 형량의 범위
  5) 범죄사실: 선고에 적용된 범죄사실을 나타냄.
  * 데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고
- * 데이터에서 5가지 특징을 추출한 위치와 데이터 전처리를 완료한 테이블은 다음과 같다.
+ * 데이터에서 5가지 특징을 추출한 위치와 전처리를 완료한 테이블은 다음과 같다.
  <img width="1280" alt="데이터 전처리 예시1" src="https://user-images.githubusercontent.com/121072239/217197711-607ed1d1-82fa-42a2-bd02-c8973f056a46.png">
  <img width="1280" alt="데이터 전처리 예시2" src="https://user-images.githubusercontent.com/121072239/217197767-4f31219e-9ca5-4a9f-ba41-fedafc4d66ac.png">
  <img width="1280" alt="데이터 테이블" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">

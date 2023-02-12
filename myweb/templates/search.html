@@ -6,7 +6,7 @@
   <title>검색</title>
   </head>
   <body>
-  <a href='{% url "home" %}'><h1>마약범죄 판례 조회 사이트</h1></a>
+  <a href='{% url "home" %}'><h1>마약범죄 형량 및 판례 조회 사이트</h1></a>
     <form method="GET" action="{% url 'pie' %}">
     {%csrf_token%}
       <p>취급마약</p>

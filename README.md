@@ -31,7 +31,7 @@
  3) 형종: 형량의 종류
  4) 형량범위: 형량의 범위
  5) 범죄사실: 선고에 적용된 범죄사실을 나타냄.
- * 데이터 전처리에 관한 자세한 내용은 data/preprocessing.ipynb 파일을 참고
+ * 데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고
  * 판례 원문에서 데이터를 추출한 부분은 다음과 같다.
  <img width="1280" alt="데이터 전처리 예시1" src="https://user-images.githubusercontent.com/121072239/217197711-607ed1d1-82fa-42a2-bd02-c8973f056a46.png">
  <img width="1280" alt="데이터 전처리 예시2" src="https://user-images.githubusercontent.com/121072239/217197767-4f31219e-9ca5-4a9f-ba41-fedafc4d66ac.png">

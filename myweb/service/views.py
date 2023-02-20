@@ -1,6 +1,5 @@
 from django.shortcuts import render
 import pandas as pd
-from django.core.paginator import Paginator
 
 def homePage(request):
 

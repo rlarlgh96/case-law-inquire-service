@@ -24,7 +24,7 @@
         취급약물: {{drugs}}<br>
         형종: {{type}} </p>
     <p>{{type}} 형량에 대한 판례 데이터의 분포는 위와 같습니다. 판례를 보려면 형량범위를 선택한 후 아래의 '이동' 버튼을 눌러주세요.</p>
-    <p><form method="GET" action="{% url 'precedent' %}">
+    <p><form method="GET" action="{% url 'caselaw' %}">
     {%csrf_token%}
       <label><input type="radio" name="sentence" value="1백만원미만"> 1백만원미만</label>
       <label><input type="radio" name="sentence" value="1백만원-2백만원"> 1백만원-2백만원</label>

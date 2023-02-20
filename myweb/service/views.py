@@ -238,7 +238,7 @@ def chartPage(request):
 
         return render(request, 'chartC.html', context)
 
-def precedent(request):
+def caselaw(request):
 
     drugs = request.session['drugs']
     type = request.session['type']
@@ -252,23 +252,23 @@ def precedent(request):
     df = search(drugs)
 
     facts = []
-    precedent = []
+    caselaw = []
     page = 1
 
     for i in range(len(df)):
         if df['형종'][i] == type and df['형량범위'][i] == sentence:
-            precedent.append(df['판례원본'][i])
+            caselaw.append(df['판례원본'][i])
             facts.append(df['범죄사실'][i])
 
-    if len(precedent) == 0:
+    if len(caselaw) == 0:
         return render(request, 'none.html')
 
     drugs = list_to_str(drugs)
 
-    request.session['precedent'] = precedent
+    request.session['caselaw'] = caselaw
     request.session['facts'] = facts
     request.session['page'] = page
-    request.session['total'] = len(precedent)
+    request.session['total'] = len(caselaw)
 
 
     context = {
@@ -276,25 +276,25 @@ def precedent(request):
         'facts': facts[page-1],
         'type': type,
         'sentence': sentence,
-        'precedent': precedent[page-1],
+        'caselaw': caselaw[page-1],
         'page': page,
-        'total': len(precedent)
+        'total': len(caselaw)
     }
 
-    return render(request, 'precedent.html', context)
+    return render(request, 'caselaw.html', context)
 
 def nextPage(request):
 
     drugs = request.session['drugs']
     type = request.session['type']
     sentence = request.session['sentence']
-    precedent = request.session['precedent']
+    caselaw = request.session['caselaw']
     facts = request.session['facts']
     page = request.session['page']
 
     page += 1
 
-    if len(precedent) < page:
+    if len(caselaw) < page:
         return render(request, 'done.html')
 
     else:
@@ -302,19 +302,19 @@ def nextPage(request):
         drugs = list_to_str(drugs)
 
         request.session['page'] = page
-        request.session['total'] = len(precedent)
+        request.session['total'] = len(caselaw)
 
         context = {
             'drugs': drugs,
             'type': type,
             'sentence': sentence,
-            'precedent': precedent[page-1],
+            'caselaw': caselaw[page-1],
             'facts': facts[page-1],
             'page': page,
-            'total': len(precedent)
+            'total': len(caselaw)
         }
 
-        return render(request, 'precedent.html', context)
+        return render(request, 'caselaw.html', context)
 
 
 

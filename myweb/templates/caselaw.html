@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>판례 원문</title>
+</head>
+<body>
+<a href='{% url "home" %}'><h1>마약범죄 형량 및 판례 조회 사이트</h1></a>
+<p> 검색조건<br>
+    취급약물: {{drugs}}<br>
+    범죄사실: {{facts}}<br>
+    형종: {{type}}<br>
+    형량범위: {{sentence}}<br>
+    페이지 : {{page}} / {{total}}
+</p>
+<p>판례원본<br>
+{{caselaw}}
+</p>
+<a href='{% url "nextPage" %}'><button type="button">다음</button></a>
+<p>다른 형량범위의 판례를 보려면 아래의 '이동' 버튼을 눌러주세요.</p>
+<a href='{% url "chart" %}'><button class="button" type="button">이동</button></a>
+</body>
+</html>

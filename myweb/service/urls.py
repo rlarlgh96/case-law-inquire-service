@@ -9,7 +9,7 @@ urlpatterns = [
     path('search/', views.searchPage, name='search'),
     path('search/pie/', views.piePage, name='pie'),
     path('search/pie/chart', views.chartPage, name='chart'),
-    path('search/pie/chart/precedent', views.precedent, name='precedent'),
-    path('search/pie/chart/precedent/nextPage', views.nextPage, name='nextPage')
+    path('search/pie/chart/caselaw', views.caselaw, name='caselaw'),
+    path('search/pie/chart/caselaw/nextPage', views.nextPage, name='nextPage')
 ]
 

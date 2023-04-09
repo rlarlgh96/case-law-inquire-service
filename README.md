@@ -58,9 +58,9 @@
 
 ## 결과
 * 구현한 서비스의 모습은 다음과 같다.
-<img width="1280" alt="홈페이지" src="https://user-images.githubusercontent.com/121072239/230657716-1f7fb573-bea1-4fa7-bf5f-a33793e1047a.png">
-<img width="1280" alt="데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230657745-04dde13e-9212-44bf-b127-0587d9a53446.png">
-<img width="1280" alt="검색 페이지" src="https://user-images.githubusercontent.com/121072239/230657763-d43d29bc-418c-4da3-84d4-fe683f5ea746.png">
-<img width="1280" alt="형종 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230657829-cca16aa6-0192-4f3e-989d-98dcad2f97f0.png">
-<img width="1280" alt="형량 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230657846-4f853f57-bdde-4d24-a2f1-af7014b951db.png">
-<img width="1280" alt="판례 조회 페이지" src="https://user-images.githubusercontent.com/121072239/230657869-cb9117fe-8faa-4e92-852a-383fbca9c2d5.png">
+<img width="1280" alt="홈페이지" src="https://user-images.githubusercontent.com/121072239/230764519-68c88824-a60c-40b3-a82e-ea7e9324d09b.png">
+<img width="1280" alt="마약별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764535-f870a695-91c2-438d-a520-13b1382bceef.png">
+<img width="1280" alt="검색 페이지" src="https://user-images.githubusercontent.com/121072239/230764547-5250c33e-4462-4ef6-8f24-284419838a33.png">
+<img width="1280" alt="형종별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764548-348d836e-4c59-422f-845b-9e8d70fdf69d.png">
+<img width="1280" alt="형량별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764549-70841a07-d1d0-446f-af99-f0bce04b1462.png">
+<img width="1280" alt="판례 조회 페이지" src="https://user-images.githubusercontent.com/121072239/230764551-53c97de9-65e0-49f0-b61e-ff8d6300ab3c.png">

@@ -16,7 +16,6 @@ def count(drug):
 
     return count
 
-
 def search(drugs):
 
     df = pd.read_csv('data.csv')
@@ -53,17 +52,13 @@ def dataPage(request):
 
     }
 
-
     return render(request, 'data.html', context)
-
-
 
 def searchPage(request):
 
     request.session.flush()
 
     return render(request, 'search.html')
-
 
 def piePage(request):
 

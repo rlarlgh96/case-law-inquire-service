@@ -56,13 +56,9 @@ def dataPage(request):
 
 def searchPage(request):
 
-    request.session.flush()
-
     return render(request, 'search.html')
 
 def piePage(request):
-
-    request.session.flush()
 
     drugs = request.GET.getlist('drug')
 
@@ -153,9 +149,6 @@ def chartPage(request):
         except:
 
             return render(request, 'error.html')
-
-
-
 
     request.session['type'] = type
 

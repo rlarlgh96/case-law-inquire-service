@@ -29,8 +29,8 @@
  4) 형종: 선고된 형량의 종류
  5) 형량범위: 형량의 범위
  6) 범죄사실: 선고에 적용된 범죄사실을 나타냄.
+ * 판례 내용 구조를 분석해, 수집한 판례에서 필요한 정보만 추출하는 알고리즘을 만들어 데이터 전처리를 진행했다(데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고).
  * 데이터 전처리 결과, 수집한 7,259개의 데이터 중 3,162개의 데이터를 활용할 수 있는 형태로 가공했다.
- * 데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고
  <img width="1280" alt="데이터 전처리 예시1" src="https://user-images.githubusercontent.com/121072239/217197711-607ed1d1-82fa-42a2-bd02-c8973f056a46.png">
  <img width="1280" alt="데이터 전처리 예시2" src="https://user-images.githubusercontent.com/121072239/217197767-4f31219e-9ca5-4a9f-ba41-fedafc4d66ac.png">
  <img width="1280" alt="데이터 테이블" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">

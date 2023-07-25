@@ -32,10 +32,15 @@
  <p align = "center">
  <img width="1280" alt="데이터 전처리 예시1" src="https://user-images.githubusercontent.com/121072239/217197711-607ed1d1-82fa-42a2-bd02-c8973f056a46.png">
  <img width="1280" alt="데이터 전처리 예시2" src="https://user-images.githubusercontent.com/121072239/217197767-4f31219e-9ca5-4a9f-ba41-fedafc4d66ac.png">
- 뭐라는거여
  </p>
+ <p align = "center">
  <img width="1280" alt="원시 데이터" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/4fb04841-f073-4cc3-8654-f77bb6144633">
+ 원시 데이터
+ </p>
+ <p align = "center">
  <img width="1280" alt="처리된 데이터" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">
+ 처리된 데이터
+ </p>
 
  ### 3. 서비스 구현
  * Django를 사용해 웹으로 서비스를 구현했다.

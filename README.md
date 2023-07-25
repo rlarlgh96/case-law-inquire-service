@@ -30,16 +30,16 @@
  * 판례에서 필요한 부분만 추출하여 데이터 전처리를 진행했다(데이터 전처리에 관한 자세한 내용은 preprocessing.ipynb 파일을 참고).
  * 수집한 7,259개의 데이터 중 3,162개의 데이터를 활용 가능한 형태로 가공했다.
  <p align="center" style="color:gray">
- <img width="1280" alt="데이터 전처리 예시1" src="https://user-images.githubusercontent.com/121072239/217197711-607ed1d1-82fa-42a2-bd02-c8973f056a46.png">
- <img width="1280" alt="데이터 전처리 예시2" src="https://user-images.githubusercontent.com/121072239/217197767-4f31219e-9ca5-4a9f-ba41-fedafc4d66ac.png">
+  <img width="1280" alt="데이터 전처리 예시1" src="https://user-images.githubusercontent.com/121072239/217197711-607ed1d1-82fa-42a2-bd02-c8973f056a46.png">
+  <img width="1280" alt="데이터 전처리 예시2" src="https://user-images.githubusercontent.com/121072239/217197767-4f31219e-9ca5-4a9f-ba41-fedafc4d66ac.png">
  </p>
- <p align="center" style="color:gray">
- <img width="1280" alt="원시 데이터" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/4fb04841-f073-4cc3-8654-f77bb6144633">
- 원시 데이터
+ <p align="center">
+  <img width="1280" alt="원시 데이터" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/4fb04841-f073-4cc3-8654-f77bb6144633">
+  원시 데이터
  </p>
- <p align="center" style="color:gray">
- <img width="1280" alt="처리된 데이터" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">
- 처리된 데이터
+ <p align="center">
+  <img width="1280" alt="처리된 데이터" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">
+  처리된 데이터
  </p>
 
  ### 3. 서비스 구현
@@ -66,9 +66,28 @@
 
 ## 결과
 * 구현한 서비스의 모습은 다음과 같다.
-<img width="1280" alt="홈페이지" src="https://user-images.githubusercontent.com/121072239/230764519-68c88824-a60c-40b3-a82e-ea7e9324d09b.png">
-<img width="1280" alt="마약별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764535-f870a695-91c2-438d-a520-13b1382bceef.png">
-<img width="1280" alt="검색 페이지" src="https://user-images.githubusercontent.com/121072239/230764547-5250c33e-4462-4ef6-8f24-284419838a33.png">
-<img width="1280" alt="형종별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764670-cb824516-7549-4671-9975-138dd10fee07.png">
-<img width="1280" alt="형량별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764549-70841a07-d1d0-446f-af99-f0bce04b1462.png">
-<img width="1280" alt="판례 조회 페이지" src="https://user-images.githubusercontent.com/121072239/230764551-53c97de9-65e0-49f0-b61e-ff8d6300ab3c.png">
+<p align="center">
+ <img width="1280" alt="홈페이지" src="https://user-images.githubusercontent.com/121072239/230764519-68c88824-a60c-40b3-a82e-ea7e9324d09b.png">
+ 홈페이지
+</p>
+<p align="center">
+ <img width="1280" alt="마약별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764535-f870a695-91c2-438d-a520-13b1382bceef.png">
+ 마약별 데이터 분포 페이지
+</p>
+<p align="center">
+ <img width="1280" alt="검색 페이지" src="https://user-images.githubusercontent.com/121072239/230764547-5250c33e-4462-4ef6-8f24-284419838a33.png">
+ 검색 페이지
+</p>
+<p align="center">
+ <img width="1280" alt="형종별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764670-cb824516-7549-4671-9975-138dd10fee07.png">
+ 형종 데이터 분포 페이지
+</p>
+<p align="center">
+ <img width="1280" alt="형량별 데이터 분포 페이지" src="https://user-images.githubusercontent.com/121072239/230764549-70841a07-d1d0-446f-af99-f0bce04b1462.png">
+ 형량 데이터 분포 페이지
+</p>
+<p align="center">
+ <img width="1280" alt="판례 조회 페이지" src="https://user-images.githubusercontent.com/121072239/230764551-53c97de9-65e0-49f0-b61e-ff8d6300ab3c.png">
+ 판례 조회 페이지
+</p>
+

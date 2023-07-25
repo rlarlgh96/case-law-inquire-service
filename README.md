@@ -35,11 +35,11 @@
  </p>
  <p align = "center">
  <img width="1280" alt="원시 데이터" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/4fb04841-f073-4cc3-8654-f77bb6144633">
- <span style="color: #808080> 원시 데이터 </span>
+ <span style="color: #808080"> 원시 데이터 </span>
  </p>
  <p align = "center">
  <img width="1280" alt="처리된 데이터" src="https://user-images.githubusercontent.com/121072239/212743274-4c37842c-075f-47cd-ac03-1db76795afc0.png">
- <span style="color: #808080> 처리된 데이터 </span>
+ <span style="color: #808080"> 처리된 데이터 </span>
  </p>
 
  ### 3. 서비스 구현

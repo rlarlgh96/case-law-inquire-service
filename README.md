@@ -46,7 +46,8 @@
 
  ### 4. 서비스 흐름도
  * 설계한 서비스의 흐름은 다음과 같다.
- <img width="200" alt="서비스 흐름도" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/d464a78b-e71f-4905-9a14-b5ba5cc4276c">
+ <img width="295" alt="스크린샷 2023-08-05 오전 1 25 56" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/a2092b17-08c6-4f25-bf35-1d9673652a25">
+
 
 ## 구동 방법
  * 이 서비스는 정식으로 배포되지 않았기에 로컬 서버에서 구동이 가능하다.

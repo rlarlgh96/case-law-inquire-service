@@ -47,8 +47,7 @@
 
  ### 4. 서비스 플로우차트
  * 설계한 서비스의 플로우차트는 다음과 같다.
- <img width="320" alt="서비스 흐름도" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/e4d4c11a-1043-4574-9c3f-07e224913700">
-
+ <img width="640" alt="서비스 흐름도" src="https://github.com/rlarlgh96/case-law-inquire-service/assets/121072239/d464a78b-e71f-4905-9a14-b5ba5cc4276c">
 
 ## 구동 방법
  * 이 서비스는 정식으로 배포하지 않았기에 로컬 서버에서만 구동이 가능하다.
